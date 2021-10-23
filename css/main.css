@@ -2,7 +2,7 @@
     /* this is needed or the background will be offset by a few pixels at the top */
     /* overflow: auto;
     position: relative; */
-    background-image: url(assets/IMG_7107_2.jpg);
+    background-image: url(/assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 27%;
