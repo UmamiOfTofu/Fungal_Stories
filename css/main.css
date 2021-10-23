@@ -1,0 +1,38 @@
+.jumbotron {
+    /* this is needed or the background will be offset by a few pixels at the top */
+    /* overflow: auto;
+    position: relative; */
+    background-image: url(/assets/IMG_7107_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 27%;
+    height: 50vh;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+/* .jumbotron::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url(/assets/IMG_7107.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 27%;
+    height: 50vh;
+    filter: brightness(75%) contrast(50%) drop-shadow(8px 8px 10px gray);
+} */
+
+#title {
+    color: white;
+    padding-top: 15vh;
+}
+
+/* .dropdown-menu > li {
+    display: inline-block;
+    float:left;
+}
+.open > ul {
+    display: inline-flex !important;
+} */
